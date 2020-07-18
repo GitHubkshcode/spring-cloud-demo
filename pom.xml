@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>config-server</module>
+        <module>config-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
