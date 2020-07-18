@@ -36,9 +36,16 @@
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
+        <!-- 配置自动刷新 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!-- 广播状态更改，批量更新配置 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
         </dependency>
     </dependencies>
 

@@ -14,3 +14,10 @@ data: #当无法读取配置中心的配置时，使用此配置，以免项目�
   user:
     username: NaN
     password: NaN
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 32771 #容器中rabbitmq端口：5672，映射端口：32771
+    username: guest
+    password: guest
